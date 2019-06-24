@@ -1,7 +1,7 @@
 
 syntax = "proto2";
 
-package SC2APIProtocol;
+package XS2APIProtocol;
 
 message AvailableAbility {
   optional int32 ability_id = 1;

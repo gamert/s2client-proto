@@ -1,17 +1,17 @@
 
 syntax = "proto2";
 
-package SC2APIProtocol;
+package XS2APIProtocol;
 
-import "s2clientprotocol/common.proto";
-import "s2clientprotocol/data.proto";
-import "s2clientprotocol/debug.proto";
-import "s2clientprotocol/error.proto";
-import "s2clientprotocol/query.proto";
-import "s2clientprotocol/raw.proto";
-import "s2clientprotocol/score.proto";
-import "s2clientprotocol/spatial.proto";
-import "s2clientprotocol/ui.proto";
+import "xs2clientprotocol/common.proto";
+import "xs2clientprotocol/data.proto";
+import "xs2clientprotocol/debug.proto";
+import "xs2clientprotocol/error.proto";
+import "xs2clientprotocol/query.proto";
+import "xs2clientprotocol/raw.proto";
+import "xs2clientprotocol/score.proto";
+import "xs2clientprotocol/spatial.proto";
+import "xs2clientprotocol/ui.proto";
 
 //
 // Notes:

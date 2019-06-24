@@ -16,7 +16,7 @@ The API is available in the retail Windows and Mac clients. There are also Linux
 
 * **Protocol**
     * Protobuf protocol definition of the API.
-    * [Definition](s2clientprotocol/sc2api.proto)
+    * [Definition](xs2clientprotocol/sc2api.proto)
     * [Documentation](docs/protocol.md)
 * **Reference C++ implementation**
     * Library designed for building a scripted bots using the API.

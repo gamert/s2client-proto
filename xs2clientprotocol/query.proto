@@ -1,10 +1,10 @@
 
 syntax = "proto2";
 
-package SC2APIProtocol;
+package XS2APIProtocol;
 
-import "s2clientprotocol/common.proto";
-import "s2clientprotocol/error.proto";
+import "xs2clientprotocol/common.proto";
+import "xs2clientprotocol/error.proto";
 
 message RequestQuery {
   repeated RequestQueryPathing pathing = 1;

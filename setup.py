@@ -13,10 +13,10 @@ from distutils.spawn import find_executable
 from setuptools import setup
 from setuptools.command.build_py import build_py
 
-import s2clientprotocol.build
+import xs2clientprotocol.build
 
 SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
-PROTO_DIR = os.path.join(SETUP_DIR, 's2clientprotocol')
+PROTO_DIR = os.path.join(SETUP_DIR, 'xs2clientprotocol')
 
 
 if 'PROTOC' in os.environ and os.path.exists(os.environ['PROTOC']):
@@ -60,15 +60,15 @@ class BuildPy(build_py):
 
 
 setup(
-    name='s2clientprotocol',
-    version=s2clientprotocol.build.game_version(),
-    description='StarCraft II - client protocol.',
-    author='Blizzard Entertainment',
-    author_email='jrepp@blizzard.com',
+    name='xs2clientprotocol',
+    version=xs2clientprotocol.build.game_version(),
+    description='xspace - client protocol.',
+    author='dw',
+    author_email='gamert@dw.com',
     license='MIT',
-    url='https://github.com/Blizzard/s2client-proto',
+    url='https://github.com/gamert/s2client-proto',
     packages=[
-        's2clientprotocol',
+        'xs2clientprotocol',
     ],
     install_requires=[
         'protobuf',

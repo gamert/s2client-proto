@@ -1,9 +1,9 @@
 
 syntax = "proto2";
 
-package SC2APIProtocol;
+package XS2APIProtocol;
 
-import "s2clientprotocol/common.proto";
+import "xs2clientprotocol/common.proto";
 
 // Issue various useful commands to the game engine.
 message DebugCommand {
